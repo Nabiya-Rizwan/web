@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--text-color:rgb(22, 2, 2);
+--btn-bg:#FEA116;
+--bg-color:#0F172B;
+--icons-clr-heading-clr: linear-gradient(180deg, #FEA116 0%, #F28C0F 100%);
+}
+.primary-btn {
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+    background: linear-gradient(180deg, #F28C0F 0%, #d97706 100%);
+}
+.MAIN-BOXES {
+    background: #ffffff;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.MAIN-BOXES:hover {
+    background: linear-gradient(180deg, #FEA116 0%, #F28C0F 100%);
+    color: #ffffff;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.MAIN-BOXES:hover h5,
+.MAIN-BOXES:hover p,
+.MAIN-BOXES:hover small {
+    color: #ffffff;
+}
+
+.section-title {
+  font-family: 'Pacifico', cursive;
+    color: #FEA116;
+    font-size: 20px;
+}
